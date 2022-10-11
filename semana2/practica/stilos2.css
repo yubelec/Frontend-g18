@@ -66,5 +66,27 @@
 .footer__link-icon{
     width: 100%;
 }
+@media only screen and (max-width:720px){
+    .body{
+        display:grid;
+        min-height:0%; 
+        
+    }
+    .main{
+        width: 30%;
+        height: 20%;
+       
+    }
+
+    .header__professional-image{
+        width: 6rem;
+        height: 6rem;
+    }
+    .article__title,.article__keywords,.article__presentation{
+        letter-spacing: 1px;
+        
+    
+    }
+}
 
 
