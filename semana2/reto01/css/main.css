@@ -1,0 +1,147 @@
+/* HEADER*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    margin-left: 0px;
+}
+.header{
+    background: #00AF1C;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+}
+.header nav a{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header li{
+    list-style: none;
+    margin-left: 15px; 
+}
+.header a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logo{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;    
+}
+/*SECTION HOME*/
+.home h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3B06D2;
+    margin: 30px;
+}
+.home p{
+    margin: 30px;    
+}
+.home div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home div img{
+    margin: 20px;
+}
+/*SECTION SERVICIOS*/
+.services h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #D206B2;
+    margin: 30px;
+}
+.services p{
+    margin: 30px;    
+}
+.services div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*PORTAFOLIO*/
+.portafolio h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #D206B2;
+    margin: 30px;
+}
+.portafolio p{
+    margin: 30px;    
+}
+.portafolio div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*CONTACT*/
+.contact{
+    margin: 30px;
+}
+.contact h2{
+    color: #06D2C6;
+}
+/*COLOURS*/
+.red{
+    color:#FF0000 ;
+}
+.blue{
+    color:#1400FF;
+}
+.orange{
+    color:#D79B00;
+}
+.green{
+    color: #03B2B2;
+}
+
+/*FORM*/
+.name{
+    border: 2px solid #000000;
+    width: 100%;
+    height: 3rem;
+    
+}
+.description{
+    border: 2px solid #000000;
+    width: 100%;
+    padding-top: 2rem;
+    height: 214px;
+}
+.btn-submit{
+    background: #FFFFFF;
+    color: #22A900;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 1rem;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #22A900;
+}
+.footer{
+    background-color: #22A900;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
