@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!-- Primary Meta Tags -->
-    <title>Pagina personal</title>
+    <title>Yubel Escobedo</title>
     <meta name="title" content="Pagina personal">
     <meta name="description" content="Es mi primer portafolio en html y css">
 
@@ -23,35 +23,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Style-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>
-    <!-- esto es el encabezado -->
-    <header>
-      <nav>  
-        <span>
-            LOGO
-        </span>
-    </nav>
-<!-- es una lista -->
-      <ul>
-        <li><a href="./semana2/inicio.html">INICIO</a></li>
-        <li><a href="">Nosotros</a></li>
-        <li><a href="">contactanos</a></li>
-        <li><a href="./semana2/formulario.html">formulario</a></li>
-        <li><a href="./semana2/tablas.html">TABLAS</a></li>
-        <li><a href="./semana2/practica/paginapersonal.html">paginapersonal</a></li>
-        <li><a href="./sesion 03/home.html">MI RETO</a></li>
-      </ul>
-
-      <img src="" alt="">
-    </header>
-    <section>
-        <!-- src son recursos  -->
-        <img src="./images/portfol.png" alt="">        
+    <main class="wrap">
+      <!--Header-->
+      <header class="header">
+        <img src="./img/logo2.png" class="logo" alt="Logo">
+      
+        <nav>
+          <ul>
+            <li><a href="./semana2/inicio.html">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!--Section banner-->
+    <section class="banner">
+      <div class="content-resume">
+        <h1 class="title">Hello,<br> I am <span class="subtitle">Yubel Escobedo</span></h1>
+        <h2 class="title-resume">Web Designer / Developer</h2>
+        <button class="btn-project">Projects</button>
+        <button class="btn-project">Donwload CV</button>
+      </div>
+      <div>
+        <img class="img-profile" src="img/perfil.png">
+      </div>        
     </section>
-    <article>
+    <!--Seccion Services-->
+    <section class="section-services">
+      <div>
+        <h2 class="title-section">What makes me different?</h2>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptates quas dolor laborum enim sunt quod itaque dolore quam suscipit ut, non saepe dolorum autem rem. Provident exercitationem impedit tenetur.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptates quas dolor laborum enim sunt quod itaque dolore quam suscipit ut, non saepe dolorum autem rem. Provident exercitationem impedit tenetur.</p>
+        <div class="services">
+          <div>
+            <img src="./img/icons8-wordpress-96-1.png" alt="">
+            <h2>WordPress Designer</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate facilisis purus, at dapibus</p>
+          </div>
+          <div>
+            <img src="./img/icons8-python-96-1.png" alt="">
+            <h2>Web Developer</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate facilisis purus, at dapibus</p>
+          </div>
+          <div>
+            <img src="./img/odoo_logo-1-e1660603235476.png" alt="">
+            <h2>Odoo Developer</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate facilisis purus, at dapibus</p>
+          </div>
+          </div> 
+      </div>
+    </section>
+    <!--Seccion Projects-->
+    <section class="section-projects">
+      <div>
+        <h2 class="title-section">Projects</h2>
+        <div class="projects">
+          <ul>
+            <li><a href="#">Reto 01</a></li>
+            <li><a href="#">Reto 02</a></li>
+            <li><a href="#">Reto 03</a></li>
+            <li><a href="#">Reto 04</a></li>
+          </ul>
+          </div> 
+      </div>
+      
 
-    </article>
+    </section>
+    <!--footer-->
+    <footer>
+      <p>Copyright © 2022 | Todos los derechos reservados</p>
+      <div class="social-icons">
+        <a 
+        href="#" class="footer__link-icon">
+        <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a 
+        href="#" class="footer__link-icon">
+        <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a 
+        href="#" class="footer__link-icon">
+        <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" class="footer__link-icon">
+        <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+    </footer>
+  </main>
   </body>
-  <footer></footer>
+  <footer>
+
+  </footer>
 </html>
