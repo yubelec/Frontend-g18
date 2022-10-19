@@ -1,0 +1,121 @@
+*,html{
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    margin:auto;
+    max-width: 960px;
+    width: 50%;
+    padding: 40px;
+    background: rgb(243, 240, 240)
+}
+
+.card-one{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.row-one{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    align-content: space-between;
+}
+.counter{
+    background:hsl(211, 10%, 95%);
+    padding: 6px;
+    height: 60px;
+    border-radius:6px ;
+}
+.number{
+    color: hsl(212, 24%, 26%);
+    font-weight: 700;
+    font-size: 14px; 
+}
+.parrafo{
+    color: hsl(211, 10%, 45%);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+.icon{
+    width: 50%;
+}
+.name{
+  color:hsl(239, 57%, 85%),
+}
+.date{
+    padding-left: 10px;
+    color: hsl(211, 10%, 45%);
+    font-weight: 500;
+}
+.reply{
+    padding-left: 480px; 
+}
+.reply a{
+    text-decoration: none;
+    color: hsl(212, 24%, 26%);
+    font-weight: 800;
+}
+.reply-two{
+    padding-left: 410px;
+}
+.two{
+    padding: 20px;
+}
+.card-two{
+    margin-left: 80px;
+}
+.card-four{
+    margin-left: 80px;
+}
+.delete{
+    padding-left: 200px;
+}
+.delete a{
+    text-decoration: none;
+}
+.edit{
+    padding-left: 135px;
+}
+.edit a{
+    text-decoration: none;
+}
+.you{
+    background: hsl(212, 24%, 26%);
+    color: #fff;
+    font-weight: 600;
+    padding:0px 5px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+textarea{
+    border-color: hsl(210, 10%, 84%);
+    border-radius: 4px;
+    padding: 10px;
+}
+.send{
+    background: hsl(238, 40%, 52%);
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card-end{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    gap: 10px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.picture{
+   width: 95%;
+}
