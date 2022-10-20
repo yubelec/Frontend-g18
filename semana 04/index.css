@@ -1,0 +1,12 @@
+@import'./css/modules/variables.css';
+@import './css/modules/section.css';
+@import'./css/modules/animation.css';
+
+
+.body{
+    background-color:var(--primary-theme-color) ;
+    background-color: var(--color-back);    
+    font-family: var(--primary-font-family);
+    margin: 0;
+}
+

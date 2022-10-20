@@ -1,0 +1,30 @@
+:root{
+    --primary-theme-color:#20232a;
+    --secondary-theme-color:#282c34;
+    --primary-text-color:#fff;
+    --primary-highlight-color:#61dafb;
+    --primary-font-family:'arial';
+    --padding-section:1.5rem;
+    --padding-comtainer:1rem;
+    --max-width-container:640px;
+    --letter-color-1:#00bef8;
+    --letter-color-2:#ff0697;
+    --leter-color-3:#ffe600;
+    --letter-color-4:#bb00ff;
+    --letter-color-5:#f5926b;
+}
+
+
+@media (min-width:760px){
+    :root{
+        --padding-section:2rem;
+        --padding-container:0.75rem;
+        --max-width-container:1024px;
+        --primary-theme-color:red;
+        --letter-color-1:green;
+        --letter-color-2:violet;
+        --leter-color-3:aqua;
+        
+   
+    }
+}
