@@ -1,0 +1,35 @@
+:root{
+    --color-primary: #1F3F68;
+    --color-text:rgba(0, 0, 0, 0.6);
+    --color-secondary:#356EAD;
+    --text-ligth: #ffffff;
+    --color-transparent:rgba(255, 255, 255, 0.78);
+}
+.cover{
+    position: relative;
+    background-image: url('./img/bg-slide.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.title-blog{
+    color: var(--text-ligth);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.text-paragraph{
+    color: var(--color-transparent);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;  
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+}
